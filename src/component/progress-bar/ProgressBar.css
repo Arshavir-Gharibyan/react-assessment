@@ -1,0 +1,25 @@
+.progress {
+  position:absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(240, 238, 238);
+}
+
+.bar {
+  width: 10%;
+  height: 30px;
+  background-color: #545657;
+}
+
+.bar1{
+  width: 10%;
+  height: 30px;
+  background-color:red;
+}
+
+.ba2 {
+  width: 10%;
+  height: 30px;
+  background-color: black;
+}

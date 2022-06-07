@@ -1,0 +1,59 @@
+.miniSelectedBarProgress1 {
+  background-color: black;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 3;
+
+}
+
+.miniCorrectBarProgress2 {
+  background-color: rgb(82, 70, 70);
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 2;
+
+}
+
+.miniPotentialBarProgress3 {
+  background-color: rgb(189, 196, 196);
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 1;
+
+}
+
+.miniBar {
+  height: 0.5rem;
+  border: 1px solid #8a898a;
+  position: absolute;
+  width: -webkit-calc(100% - 2rem);
+  width: -moz-calc(100% - 2rem);
+  width: calc(100% - 2rem);
+  margin-right: 0.5rem;
+  height: 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+}
+
+.score{
+  display: flex;
+  justify-content: space-around;
+  height: 0.5rem;
+  position: absolute;
+  margin-right: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 100px; 
+}
